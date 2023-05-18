@@ -7,6 +7,6 @@
     <title>Algo</title>
 </head>
 <body>
-           
+    
 </body>
 </html>
