@@ -10,6 +10,14 @@ class Alumno extends Model
 {
     use HasFactory;
 
+    protected $fillable=[
+        'Nombre',
+        'Apellido',
+        'Edad',
+        'mail',
+        'curso_id'
+    ];
+
     public function alumno_curso(){
         return $this->belongsTo(Curso::class);
     }
