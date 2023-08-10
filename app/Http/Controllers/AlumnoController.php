@@ -13,7 +13,7 @@ class AlumnoController extends Controller
     public function index()
     {
         $alumnos= Alumno::get();
-        dd($alumnos);
+        return view('alumnos');
     }
 
 

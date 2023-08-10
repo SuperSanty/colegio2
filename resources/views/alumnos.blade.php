@@ -7,7 +7,7 @@
 	<title>Alumnos</title>
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="../src/estilos/alumnosStyles.css">
+	<link rel="stylesheet" type="text/css" href="css/alumnosStyles.css">
 
 	<script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
