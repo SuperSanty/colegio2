@@ -1,0 +1,128 @@
+/*Aguirre Santiago*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30vw auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+/*NAV*/
+.grilla1{
+    grid-column: 1 /span 2;
+    grid-row: 1;
+}
+
+/*Titulo*/
+h1{
+    grid-row: 2;
+    grid-column: 1/span 2;
+
+    text-align: center;
+
+    font-family: 'Roboto thin', sans-serif;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    color: black;
+
+    font-size: calc(2em + 1vw);
+}
+
+/*Foto*/
+img{
+    grid-row: 3;
+    grid-column: 1;
+
+    margin-left: 5vw;
+
+    border-radius: 0.5rem;
+
+    width: 100%;
+}
+
+.primtexto{
+    grid-row: 3;
+    grid-column: 2;
+
+    font-family: 'Roboto thin', sans-serif;
+
+    margin-right: 5vw;
+    margin-left: 6vw;
+}
+.primtexto p{
+    font-size: calc(0.8em + 0.5vw);
+
+    margin-bottom: 1.5vh;
+    text-align: justify;
+}
+
+.segundotexto{
+    grid-row: 4;
+    grid-column: 1 /span 2;
+
+    font-family: 'Roboto thin', sans-serif;
+
+    margin-right: 5vw;
+    margin-left: 6vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+.segundotexto p{
+    font-size: calc(0.8em + 0.5vw);
+    margin-bottom: 1.5vh;
+    text-align: justify;
+}
+
+/*FOOTER*/
+.grilla7{
+    grid-column: 1 /span 2;
+    grid-row: 5;
+}
+
+@media (max-width: 760px){
+    .container{
+        grid-template-columns:97vw;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+    h1{
+        grid-row: 2;
+        grid-column: 1;
+
+        font-size: calc(2em + 1vw);
+    }
+    img{
+        grid-row: 3;
+        grid-column: 1;
+    
+        margin-left: 5vw;
+        margin-right: 1vw;
+        margin-bottom: 5vh;
+    
+        border-radius: 0.5rem;
+    
+        width: 88%;
+    }
+    .primtexto{
+        grid-row: 4;
+        grid-column: 1;
+    
+        margin-right: 8vw;
+        margin-left: 7vw;
+    }
+    .segundotexto{
+        grid-row: 5;
+        grid-column: 1;
+    
+        margin-right: 8vw;
+        margin-left: 7vw;
+    }
+    .grilla7{
+        grid-column: 1;
+        grid-row: 6;
+    }
+}
