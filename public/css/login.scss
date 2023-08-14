@@ -35,7 +35,7 @@ a {
     text-decoration: none;
     color: $color-principal;
     transition: .5s ease;
-    
+
     &:hover {
         color: $color-principal-dark;
     }
@@ -54,13 +54,13 @@ a {
     list-style: none;
     padding: 0;
     margin: 0 0 40px 0;
-    
+
     &:after {
         content: "";
         display: table;
         clear: both;
     }
-  
+
     li a {
         display: block;
         text-decoration: none;
@@ -73,13 +73,13 @@ a {
         text-align: center;
         cursor: pointer;
         transition: .5s ease;
-        
+
         &:hover {
             background: $color-principal-dark;
             color: $blanco;
         }
     }
-    
+
     .active a {
         background: $color-principal;
         color: $blanco;
@@ -107,7 +107,7 @@ label {
     -webkit-backface-visibility: hidden;
     pointer-events: none;
     font-size: 22px;
-    
+
     .req {
         margin: 2px;
         color: $color-principal;
@@ -118,7 +118,7 @@ label.active {
     transform: translateY(50px);
     left: 2px;
     font-size: 14px;
-    
+
     .req {
         opacity: 0;
     }
@@ -166,8 +166,8 @@ input {
         float: left;
         width: 48%;
         margin-right: 4%;
-        
-        &:last-child { 
+
+        &:last-child {
             margin: 0;
         }
     }
@@ -184,7 +184,7 @@ input {
     color: $blanco;
     transition: all .5s ease;
     -webkit-appearance: none;
-    
+
     &:hover, &:focus {
         background: $color-principal-dark;
     }
@@ -201,7 +201,7 @@ input {
     margin-bottom: 20px;
 }
 
-// Mediaqueries
+
 @media screen and (max-width: 500px) {
     .fila-arriba {
         div {
